@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-08-28T14:34:44.611Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/08/27/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2019/08/27/暑假总结/</id>
+    <published>2019-08-27T07:15:03.214Z</published>
+    <updated>2019-08-28T14:34:44.611Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>还记得总在想暑假培训是什么样子,没想到很快的就过去了。大家从一开始的陌生,小尴尬到现在有些没皮没脸了,总是一起互捧互怼,说说骂骂,特别是看剧说剧,大家贼爱看,更特别的是大家的<strong>八卦</strong>,还记得那一次有人走后剩下的几个在一起开小灶,八卦了很多,1bin也科普了很多东西,考研啊什么的</p></li><li><p>吃饭时一开始总是一起去二饭,后来渐渐的有人点外卖,再后来大家一起点外卖,偶尔的,去一下南亭,悠悠转转,我这个伞坏坏的经常蹭伞xixi，一般大三师兄师姐有来就会去外面吃，菠萝师兄好好玩，贼喜欢菠萝，也很感谢师兄师姐的投喂，第一次以为就是那个传说中的传统，大三师兄的投喂，没想到那是大二的机灵鬼买的，感动<code>~~~</code><del>（为什么叫了机灵鬼，因为。。。大二师兄师姐。。就是。。精）</del>，后面看到大三师兄师姐的投喂，刚好和1bin，杜老板，咕咕咕打完球回来~爽哟</p></li><li><p>对于学习。。。一言难尽。。学的东西是学了，但是不扎实，旧的没弄好,新的东西却陈出不穷，看过1bin，张老板和71的博客，觉得我们学得太慢了，挺多都没学。听闻其他工作室的紧张勤奋学习，我们却经常开小差，打闹，晚上也是经常没怎么学，咳~都是搬砖命，何苦那么累呢</p></li><li><p>讲到累，让我回想起了那不堪的培训,从开始培训自己的电脑就各种不让我学。。重新下载node整了一天，最后是菠萝师兄帮忙整好的，后面又是xd没法下载，只能看在ps上看截图，杜老板给我图标。。移动端手机查看的插件用不了只能在电脑看，然后。。卑微的请我们的开发大大大组在他们电脑上开，我再来看h。。再后面几天就更烦了，电脑总是蓝屏，第一次蓝屏那次是弄了一个早上，后面陆陆续续长长短短的，每次开机都是心惊胆战，很怕突然间蓝屏，只要开机后撑过一段时间，就不会蓝屏了</p></li><li><p>demo。。Bolo，第一次做移动端的页面，总觉得和之前一样，一直在做重复的简单的东西，虽说有学到东西，但是感觉没有什么逻辑可言。。。就最基础最原始的前端。。Bolo现在还没做好，只做了前端页面，后台只是简单的登录跳转和编辑，连cookie和session都没做完。。本想着回家做，最后还是高估了自己，回家只是有空看看vue，头几天还行有好好学了下，后来越要开学就越不想学，况且后面的webpack什么的奇奇怪怪红红火火恍恍惚惚，就不想学了</p></li><li><p>一个暑假过去了，老觉得还是小白的样子，东西学得慢，有些懒散,很多都是功功不知道</p></li><li><p>总之，好玩，培训，出游，回家养生…出游的点点滴滴也还在脑海中回荡，一天半的时间，一群人，跑来走去，没有拘束，玩得挺开</p><ul><li>第一次坐城轨,基本不用排队,71带了手工刀被查出来了,被没收登记了,好惨一孩子</li><li>下了城轨,小红姐因身份证过期被困了片刻,大爷却拿着同样是过期的身份证大摇大摆的走出来,不愧是大爷。出来后，就是约滴滴去吃网红店吃午饭，叫那啥来着？？，我和汉城两个人滴一辆，后面他们四个人挤一起hhh，走的时候懵逼的看着我俩，AAA欲言又止。来到网红店，等了很久，大家都抢着玩李总的相机（李总大气），到了吃饭的时候还在玩，扒饭和鸡翅，奶茶喝不下，饱饱的上路，在路上说说闹闹，汉城贼搞笑，去超市买不到东西，集体滴滴滚去别墅</li><li>到了别墅，一开始挺新奇的（后面觉得也没多少东西），去到地下，空气清新剂相当的刺鼻，受不了了，二楼又是被1bin和张老板霸占了，咕咕咕和汉城还占了地铺的位，无奈搬去和咕咕咕睡。。扔好东西,瞧瞧看看,一开始大家都围着电脑,结果电脑太垃圾玩不了,去玩麻将,三四点的时候几个人去买食材,我晕车不敢去xixi,然后去地下室玩桌球,ktv,我。。五音不全。。1bin。。。好6</li><li>去买完食材的王者回来后，就开始弄食材煮火锅，好吃但不补，吃完晚餐，就匆匆去海边，滴滴开了好久（我晕车是酱觉得。。），到了那里，发现沙子特别软，很细，但是天气比较晚了，看不见海，嘿咕咕的，就只能踩踩水，丢丢沙，跑来跑去，捉小螃蟹，拍照（后期女生一直在拍。。<del>我感觉就像没停下来一样</del>），可惜我们大一的好像没拍一张自己的。。</li><li>回到别墅，大家都争着洗澡，我因为晕车求得了一个先洗的机会，洗完澡去看咕咕咕，张老板，汉城喝酒。。汉城太难了，后面看骰子要盯着看片刻，之后他们去看鬼片，我和杜老板在ktv</li><li>第二天清早，被阳光照醒了，汉城不见了，不知道跑哪了，然后就去刷牙洗脸，没有早餐。。切大西瓜。。可惜没几个人吃，都说一大早的吃西瓜不好，浪费了o 滴滴去那个什么鬼来着？然后在那里找吃的，吃点都德，汉城和豪哥留下来排队，我们去逛来走去，那里没什么好玩，衣服倒是挺多，走过一处卖吃的会很嘴馋，因为没吃早餐，和咕咕咕一起买了冰淇淋，舔着逛  </li><li>终于排到了，第一次吃早茶，woc，真的好吃，中途汉城和71突然说这顿他俩请了，作脱单饭，哇~哦，超爽，吃，拼命吃，有个红色的虾卷，外酥里嫩，超好吃</li><li>吃罢，挺着肚子晕着车回来了…</li></ul><p>因为晕车，出门又是滴滴，走走晕晕，回别墅回血，挺累的,回来后脚伤那里特别酸，直到回家针灸。。在沙滩上跑的时候并没有觉得脚伤疼，可是后面走久了，脚踝那个酸哟，咳~</p></li></ul><p>这个暑假挺均匀的，有学有玩有吃的，觉得氛围很好，马上就又开学了。。有点方，东西其实没学好hhh</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;还记得总在想暑假培训是什么样子,没想到很快的就过去了。大家从一开始的陌生,小尴尬到现在有些没皮没脸了,总是一起互捧互怼,说说骂骂,特别是看剧说剧,大家贼爱看,更特别的是大家的&lt;strong&gt;八卦&lt;/strong&gt;,还记得那一次有人走后剩下的几个在一起开小灶
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/08/16/hello-world/"/>
+    <id>http://yoursite.com/2019/08/16/hello-world/</id>
+    <published>2019-08-16T01:45:22.128Z</published>
+    <updated>2019-08-16T01:45:22.128Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
