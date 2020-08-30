@@ -75,12 +75,10 @@
 
 
 
-  <meta name="keywords" content="后台开发,">
+  <meta name="keywords" content="Hexo, NexT">
 
 
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="Smilef" type="application/atom+xml">
@@ -90,22 +88,17 @@
 
 
 
-<meta name="description" content="node部署服务器1. 购买服务器2. 下载xshell和xftp这两个到官网有免费版,不过不能商用,输入姓名和邮箱,然后去邮箱确定接受,还有个问题就是这两个玩意好像是32位的,下载完就自动到c盘的Program Files (x86)里面 3. 登录xshellip,登录名(一般是root),密码(可以到服务器控制台那里重新设置) 4. 安装node 进入/usr/local/src 文件夹(通">
-<meta name="keywords" content="后台开发">
+<meta name="description" content="HTTP进化HTTP0.9: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求) HTTP1.0:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header… HTTP1.1: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令 问题 :">
 <meta property="og:type" content="article">
-<meta property="og:title" content="node部署流程">
-<meta property="og:url" content="http://yoursite.com/2020/02/25/node部署流程/index.html">
+<meta property="og:title" content="HTTP简述">
+<meta property="og:url" content="http://yoursite.com/2020/08/02/HTTP简述/index.html">
 <meta property="og:site_name" content="Smilef">
-<meta property="og:description" content="node部署服务器1. 购买服务器2. 下载xshell和xftp这两个到官网有免费版,不过不能商用,输入姓名和邮箱,然后去邮箱确定接受,还有个问题就是这两个玩意好像是32位的,下载完就自动到c盘的Program Files (x86)里面 3. 登录xshellip,登录名(一般是root),密码(可以到服务器控制台那里重新设置) 4. 安装node 进入/usr/local/src 文件夹(通">
+<meta property="og:description" content="HTTP进化HTTP0.9: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求) HTTP1.0:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header… HTTP1.1: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令 问题 :">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225213817001.png">
-<meta property="og:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214406553.png">
-<meta property="og:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214525315.png">
-<meta property="og:updated_time" content="2020-08-30T06:29:09.110Z">
+<meta property="og:updated_time" content="2020-08-30T08:33:12.663Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="node部署流程">
-<meta name="twitter:description" content="node部署服务器1. 购买服务器2. 下载xshell和xftp这两个到官网有免费版,不过不能商用,输入姓名和邮箱,然后去邮箱确定接受,还有个问题就是这两个玩意好像是32位的,下载完就自动到c盘的Program Files (x86)里面 3. 登录xshellip,登录名(一般是root),密码(可以到服务器控制台那里重新设置) 4. 安装node 进入/usr/local/src 文件夹(通">
-<meta name="twitter:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225213817001.png">
+<meta name="twitter:title" content="HTTP简述">
+<meta name="twitter:description" content="HTTP进化HTTP0.9: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求) HTTP1.0:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header… HTTP1.1: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令 问题 :">
 
 
 
@@ -135,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2020/02/25/node部署流程/">
+  <link rel="canonical" href="http://yoursite.com/2020/08/02/HTTP简述/">
 
 
 
 
 
-  <title>node部署流程 | Smilef</title>
+  <title>HTTP简述 | Smilef</title>
   
 
 
@@ -288,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/25/node部署流程/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/02/HTTP简述/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Watercress">
@@ -305,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">node部署流程</h1>
+          <h1 class="post-title" itemprop="name headline">HTTP简述</h1>
         
 
         <div class="post-meta">
@@ -317,8 +310,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-25T21:49:39+08:00">
-                2020-02-25
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-08-02T20:27:28+08:00">
+                2020-08-02
               </time>
             
 
@@ -355,83 +348,50 @@
       
 
       
-        <h3 id="node部署服务器"><a href="#node部署服务器" class="headerlink" title="node部署服务器"></a>node部署服务器</h3><h5 id="1-购买服务器"><a href="#1-购买服务器" class="headerlink" title="1. 购买服务器"></a>1. 购买服务器</h5><h5 id="2-下载xshell和xftp"><a href="#2-下载xshell和xftp" class="headerlink" title="2. 下载xshell和xftp"></a>2. 下载xshell和xftp</h5><p>这两个到官网有免费版,不过不能商用,输入姓名和邮箱,然后去邮箱确定接受,还有个问题就是这两个玩意好像是32位的,下载完就自动到c盘的Program Files (x86)里面</p>
-<h5 id="3-登录xshell"><a href="#3-登录xshell" class="headerlink" title="3. 登录xshell"></a>3. 登录xshell</h5><p>ip,登录名(一般是root),密码(可以到服务器控制台那里重新设置)</p>
-<h5 id="4-安装node"><a href="#4-安装node" class="headerlink" title="4. 安装node"></a>4. 安装node</h5><ul>
-<li><p>进入/usr/local/src 文件夹(通常用来存放软件源代码)</p>
-<p><code>cd /usr/local/src</code></p>
-</li>
-<li><p>下载:</p>
-<p><code>wget https://nodejs.org/dist/v6.9.5/node-v6.9.5-linux-x64.tar.xz</code></p>
-</li>
-<li><p>解压下载的文件包:</p>
-<p><code>tar xvf node-v6.9.5-linux-x64.tar.xz</code></p>
-</li>
-<li><p>建立超级链接,让node和npm可以全局访问(类似于配置环境变量)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ln -s /usr/local/src/node-v6.9.5-linux-x64/bin/node /usr/lib/node</span><br><span class="line">ln -s /usr/local/src/node-v6.9.5-linux-x64/bin/npm /usr/bin/npm</span><br></pre></td></tr></table></figure>
-
-<p>就是之前我们下载的node的位置,小白建议配合xftp查看,通过xshell打开xftp,可以不用登录,然后就可以看到所有文件夹了</p>
-</li>
-<li><p>查看node和npm版本</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h5 id="5-安装mongodb"><a href="#5-安装mongodb" class="headerlink" title="5. 安装mongodb"></a>5. 安装mongodb</h5><p>前述概要:</p>
-<p><em>软件安装位置：/usr/local/mongodb</em></p>
-<p><em>数据存放位置：/var/mongodb/data</em></p>
-<p><em>日志存放位置：/var/mongodb/logs</em></p>
+        <h4 id="HTTP进化"><a href="#HTTP进化" class="headerlink" title="HTTP进化"></a>HTTP进化</h4><p><strong>HTTP0.9</strong>: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求)</p>
+<p><strong>HTTP1.0</strong>:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header…</p>
+<p><strong>HTTP1.1</strong>: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令</p>
+<p>问题 :  带宽利⽤率不理想</p>
+<p>原因: </p>
 <ol>
-<li><p><code>cd /usr/local</code></p>
+<li><p>TCP的慢启动</p>
 </li>
-<li><p>安装:</p>
-<p><code>wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.5.tgz</code></p>
+<li><p>带宽竞争: 多条TCP连接 </p>
 </li>
-<li><p>解压并重命名位mongodb</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf mongodb-linux-x86_64-3.4.5.tgz</span><br><span class="line">mv mongodb-linux-x86_64-3.4.5 mongodb</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>创建数据和日志存放的文件夹目录:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir /var/mongodb</span><br><span class="line">mkdir /var/mongodb/data</span><br><span class="line">mkdir /var/mongodb/logs</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>设置开机启动项:</p>
-<ol>
-<li><p>打开rc.local文件: <code>vim /etc/rc.d/rc.local</code></p>
-</li>
-<li><p>打开文件后输入‘i’启用编辑,并将mongodb启动命令追加到本文件中，让mongodb开机自启动:</p>
-<p>`/usr/local/mongodb/bin/mongod –dbpath=/var/mongodb/data –logpath /var/mongodb/logs/log.log –logappend –auth –port 27017 –fork</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/dash</span><br><span class="line">#...</span><br><span class="line">...</span><br><span class="line">#...</span><br><span class="line"></span><br><span class="line">/usr/local/mongodb/bin/mongod --dbpath=/var/mongodb/data --logpath /var/mongodb/logs/log.log --logappend --auth --port 27017 --fork</span><br><span class="line">~</span><br><span class="line">~</span><br><span class="line">~</span><br><span class="line">~</span><br><span class="line">-- INSERT --</span><br></pre></td></tr></table></figure>
-
-<p>– INSERT –  表示当前是可以编辑状态</p>
-<p>按Esc退出编辑,并输入:wq保存修改</p>
-</li>
-<li><p>启动数据库:</p>
-<p><code>/usr/local/mongodb/bin/mongod --dbpath=/var/mongodb/data --logpath /var/mongodb/logs/log.log --logappend --auth --port 27017 --fork</code></p>
-<p><strong>注意: 我们已经设置了数据库的端口为27017</strong></p>
+<li><p>HTTP/1.1队头阻塞的问题</p>
+<p>一个管道一个时间只能处理一个请求,在当前请求处理完成前,其他请求只能处于阻塞状态</p>
 </li>
 </ol>
+<p><strong>HTTP2</strong>: 数据以二进制传输,同一个连接里面发送多个请求不再需要按照顺序来,头信息压缩以及推送等提高效率的功能</p>
+<p>*<em>HTTP/2的多路复⽤ *</em></p>
+<p>​    ⼀个域名只使⽤⼀个TCP⻓连接，慢启动只需要启动一次，也避免了多个TCP连接竞争带宽所带来的问题。</p>
+<p>​    资源的并⾏请求，任何时候都可以向服务器发送请求，服务器可以随时响应</p>
+<p>*<em>HTTP/2总结：⼀个域名只使⽤⼀个TCP⻓连接和消除队头阻塞问题 *</em></p>
+<p><strong>多路复⽤机制</strong>: 每个请求对应一个id,请求分成帧传输  <em>(可以设置请求的优先级,服务器收到特定的id的时候,暂停一些请求优先处理关键的请求)</em></p>
+<p>HTTP/2依然是基于TCP协议</p>
+<p><strong>HTTP/2其他特性</strong></p>
+<ol>
+<li>服务器推送 </li>
+<li>头部压缩 </li>
+</ol>
+<h4 id="浏览器发起HTTP请求的过程"><a href="#浏览器发起HTTP请求的过程" class="headerlink" title="浏览器发起HTTP请求的过程"></a>浏览器发起HTTP请求的过程</h4><ol>
+<li><p>构建请求行信息</p>
+<p>请求行包括请求方法,URL以及HTTP版本协议</p>
+</li>
+<li><p>查找缓存: 发起网络请求前先查询缓存有木有,有就使用缓存,没有再请求</p>
+<p>判断是否有: 同一文件同一路径</p>
+<p>缓存包括DNS缓存和页面的资源缓存</p>
+<p>(DNS缓存: 把域名到IP的映射缓存起来)</p>
+<p>请求资源的时候是否缓存:  根据响应头中的CatcheControl</p>
+<p><em>(关于浏览器的缓存还有挺多知识的,包括过期等等,这里只作简单的阐述)</em></p>
+</li>
+<li><p>请求DNS服务器返回域名映射的IP地址和端口 ( 如果是HTTPS协议,还要建立TLS连接)</p>
+</li>
+<li><p>等待TCP队列(一个域名最多建立6个TCP)并建立TCP</p>
+</li>
+<li><p>发送HTTP</p>
 </li>
 </ol>
-<h5 id="6-下载pm2"><a href="#6-下载pm2" class="headerlink" title="6. 下载pm2"></a>6. 下载pm2</h5><p>pm2 用来启动项目,之后项目就可以自启动更新等等</p>
-<ul>
-<li><p>下载: npm i pm2 -g</p>
-</li>
-<li><p>建立超级链接,不然还是pm2还是not found,即使是全局安装了</p>
-<p><code>ln -s /usr/local/src/node-v6.9.5-linux-x64/bin/pm2 /usr/bin/pm2</code></p>
-</li>
-</ul>
-<p><strong>注意:此时使用pm2报错的话有可能是node的版本太低了,需要更新node的版本</strong></p>
-<p>报错:<img src="C:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225213817001.png" alt="image-20200225213817001"></p>
-<p>更新:</p>
-<p>建议node项目端口监听改为:</p>
-<p><img src="C:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214406553.png" alt="image-20200225214406553"></p>
-<p>默认是127.0.0.1 , 0.0.0.0与127.0.0.1都是指本机ip，他们唯一的的区别是，0.0.0.0相当于监听了这台服务器的所有端口</p>
-<p>还有数据库: ip为localhost可以不变,端口改为27017,后面就是跟上数据库了</p>
-<p><img src="C:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214525315.png" alt="image-20200225214525315"></p>
-<h5 id="8-最后开启项目"><a href="#8-最后开启项目" class="headerlink" title="8. 最后开启项目"></a>8. 最后开启项目</h5><p>进入到/home/项目名下</p>
-<p>开启项目: pm2 start ./bin/www</p>
-<h5 id="9-另外注意点"><a href="#9-另外注意点" class="headerlink" title="9. 另外注意点"></a>9. 另外注意点</h5><p>注意服务器上的安全组配置,需要添加3000端口</p>
-<p>如果想要robo远程链接数据库,还要再添加27017端口,不然robo连不上</p>
-<p>(如果不想robo远程链接数据库,其实可以不用添加27017端口的)</p>
 
       
     </div>
@@ -452,7 +412,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="http://yoursite.com/2020/02/25/node部署流程/" title="node部署流程">http://yoursite.com/2020/02/25/node部署流程/</a>
+    <a href="http://yoursite.com/2020/08/02/HTTP简述/" title="HTTP简述">http://yoursite.com/2020/08/02/HTTP简述/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -475,12 +435,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/后台开发/" rel="tag"># 后台开发</a>
-          
-        </div>
-      
 
       
       
@@ -490,15 +444,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2020/02/25/node部署流程/" rel="next" title="node部署流程">
+                <i class="fa fa-chevron-left"></i> node部署流程
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/08/02/HTTP简述/" rel="prev" title="HTTP简述">
-                HTTP简述 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -630,7 +584,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#node部署服务器"><span class="nav-number">1.</span> <span class="nav-text">node部署服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-购买服务器"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 购买服务器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-下载xshell和xftp"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 下载xshell和xftp</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-登录xshell"><span class="nav-number">1.0.3.</span> <span class="nav-text">3. 登录xshell</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-安装node"><span class="nav-number">1.0.4.</span> <span class="nav-text">4. 安装node</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-安装mongodb"><span class="nav-number">1.0.5.</span> <span class="nav-text">5. 安装mongodb</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#6-下载pm2"><span class="nav-number">1.0.6.</span> <span class="nav-text">6. 下载pm2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#8-最后开启项目"><span class="nav-number">1.0.7.</span> <span class="nav-text">8. 最后开启项目</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#9-另外注意点"><span class="nav-number">1.0.8.</span> <span class="nav-text">9. 另外注意点</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP进化"><span class="nav-number">1.</span> <span class="nav-text">HTTP进化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#浏览器发起HTTP请求的过程"><span class="nav-number">2.</span> <span class="nav-text">浏览器发起HTTP请求的过程</span></a></li></ol></div>
             
 
           </div>
