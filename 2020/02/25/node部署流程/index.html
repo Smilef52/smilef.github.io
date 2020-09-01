@@ -99,7 +99,7 @@
 <meta property="og:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225213817001.png">
 <meta property="og:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214406553.png">
 <meta property="og:image" content="c:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214525315.png">
-<meta property="og:updated_time" content="2020-08-30T06:29:09.110Z">
+<meta property="og:updated_time" content="2020-09-01T11:28:23.783Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="node部署流程">
 <meta name="twitter:description" content="node部署服务器1. 购买服务器2. 下载xshell和xftp这两个到官网有免费版,不过不能商用,输入姓名和邮箱,然后去邮箱确定接受,还有个问题就是这两个玩意好像是32位的,下载完就自动到c盘的Program Files (x86)里面 3. 登录xshellip,登录名(一般是root),密码(可以到服务器控制台那里重新设置) 4. 安装node 进入/usr/local/src 文件夹(通">
@@ -422,9 +422,13 @@
 <p>更新:</p>
 <p>建议node项目端口监听改为:</p>
 <p><img src="C:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214406553.png" alt="image-20200225214406553"></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">server.listen(port,<span class="string">'0.0.0.0'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'服务器启动成功'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
 <p>默认是127.0.0.1 , 0.0.0.0与127.0.0.1都是指本机ip，他们唯一的的区别是，0.0.0.0相当于监听了这台服务器的所有端口</p>
 <p>还有数据库: ip为localhost可以不变,端口改为27017,后面就是跟上数据库了</p>
 <p><img src="C:%5CUsers%5CLenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200225214525315.png" alt="image-20200225214525315"></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> db = <span class="string">"mongodb://localhost:27017/xxx"</span></span><br></pre></td></tr></table></figure>
+
 <h5 id="8-最后开启项目"><a href="#8-最后开启项目" class="headerlink" title="8. 最后开启项目"></a>8. 最后开启项目</h5><p>进入到/home/项目名下</p>
 <p>开启项目: pm2 start ./bin/www</p>
 <h5 id="9-另外注意点"><a href="#9-另外注意点" class="headerlink" title="9. 另外注意点"></a>9. 另外注意点</h5><p>注意服务器上的安全组配置,需要添加3000端口</p>
@@ -557,7 +561,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -570,7 +574,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">tags</span>
                 
               </div>
