@@ -80,6 +80,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="Smilef" type="application/atom+xml">
 
@@ -95,7 +97,7 @@
 <meta property="og:site_name" content="Smilef">
 <meta property="og:description" content="HTTP进化HTTP0.9: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求) HTTP1.0:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header… HTTP1.1: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令 问题 :">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-08-30T08:33:12.663Z">
+<meta property="og:updated_time" content="2020-08-30T08:35:05.921Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HTTP简述">
 <meta name="twitter:description" content="HTTP进化HTTP0.9: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求) HTTP1.0:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header… HTTP1.1: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令 问题 :">
@@ -363,10 +365,9 @@
 </li>
 </ol>
 <p><strong>HTTP2</strong>: 数据以二进制传输,同一个连接里面发送多个请求不再需要按照顺序来,头信息压缩以及推送等提高效率的功能</p>
-<p>*<em>HTTP/2的多路复⽤ *</em></p>
+<p><strong>HTTP/2的多路复用</strong></p>
 <p>​    ⼀个域名只使⽤⼀个TCP⻓连接，慢启动只需要启动一次，也避免了多个TCP连接竞争带宽所带来的问题。</p>
 <p>​    资源的并⾏请求，任何时候都可以向服务器发送请求，服务器可以随时响应</p>
-<p>*<em>HTTP/2总结：⼀个域名只使⽤⼀个TCP⻓连接和消除队头阻塞问题 *</em></p>
 <p><strong>多路复⽤机制</strong>: 每个请求对应一个id,请求分成帧传输  <em>(可以设置请求的优先级,服务器收到特定的id的时候,暂停一些请求优先处理关键的请求)</em></p>
 <p>HTTP/2依然是基于TCP协议</p>
 <p><strong>HTTP/2其他特性</strong></p>
@@ -799,6 +800,6 @@
   
 
 
-  <script type="text/javascript" src="/js/src/love.js"></script>
+  <!-- <script type="text/javascript" src="/js/src/love.js"></script> -->
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"right","width":250,"height":500,"vOffset":30},"mobile":{"show":false},"react":{"opacity":0.8}});</script></body>
 </html>

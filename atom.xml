@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-30T08:33:12.663Z</updated>
+  <updated>2020-08-30T08:35:05.921Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/08/02/HTTP%E7%AE%80%E8%BF%B0/"/>
     <id>http://yoursite.com/2020/08/02/HTTP简述/</id>
     <published>2020-08-02T12:27:28.000Z</published>
-    <updated>2020-08-30T08:33:12.663Z</updated>
+    <updated>2020-08-30T08:35:05.921Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="HTTP进化"><a href="#HTTP进化" class="headerlink" title="HTTP进化"></a>HTTP进化</h4><p><strong>HTTP0.9</strong>: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求)</p><p><strong>HTTP1.0</strong>:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header…</p><p><strong>HTTP1.1</strong>: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令</p><p>问题 :  带宽利⽤率不理想</p><p>原因: </p><ol><li><p>TCP的慢启动</p></li><li><p>带宽竞争: 多条TCP连接 </p></li><li><p>HTTP/1.1队头阻塞的问题</p><p>一个管道一个时间只能处理一个请求,在当前请求处理完成前,其他请求只能处于阻塞状态</p></li></ol><p><strong>HTTP2</strong>: 数据以二进制传输,同一个连接里面发送多个请求不再需要按照顺序来,头信息压缩以及推送等提高效率的功能</p><p>*<em>HTTP/2的多路复⽤ *</em></p><p>​    ⼀个域名只使⽤⼀个TCP⻓连接，慢启动只需要启动一次，也避免了多个TCP连接竞争带宽所带来的问题。</p><p>​    资源的并⾏请求，任何时候都可以向服务器发送请求，服务器可以随时响应</p><p>*<em>HTTP/2总结：⼀个域名只使⽤⼀个TCP⻓连接和消除队头阻塞问题 *</em></p><p><strong>多路复⽤机制</strong>: 每个请求对应一个id,请求分成帧传输  <em>(可以设置请求的优先级,服务器收到特定的id的时候,暂停一些请求优先处理关键的请求)</em></p><p>HTTP/2依然是基于TCP协议</p><p><strong>HTTP/2其他特性</strong></p><ol><li>服务器推送 </li><li>头部压缩 </li></ol><h4 id="浏览器发起HTTP请求的过程"><a href="#浏览器发起HTTP请求的过程" class="headerlink" title="浏览器发起HTTP请求的过程"></a>浏览器发起HTTP请求的过程</h4><ol><li><p>构建请求行信息</p><p>请求行包括请求方法,URL以及HTTP版本协议</p></li><li><p>查找缓存: 发起网络请求前先查询缓存有木有,有就使用缓存,没有再请求</p><p>判断是否有: 同一文件同一路径</p><p>缓存包括DNS缓存和页面的资源缓存</p><p>(DNS缓存: 把域名到IP的映射缓存起来)</p><p>请求资源的时候是否缓存:  根据响应头中的CatcheControl</p><p><em>(关于浏览器的缓存还有挺多知识的,包括过期等等,这里只作简单的阐述)</em></p></li><li><p>请求DNS服务器返回域名映射的IP地址和端口 ( 如果是HTTPS协议,还要建立TLS连接)</p></li><li><p>等待TCP队列(一个域名最多建立6个TCP)并建立TCP</p></li><li><p>发送HTTP</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h4 id="HTTP进化"><a href="#HTTP进化" class="headerlink" title="HTTP进化"></a>HTTP进化</h4><p><strong>HTTP0.9</strong>: 只有一个命令GET.没有HEADER等描述数据的信息,服务器发送完毕,就关闭TCP连接(同一个TCP连接里面不能发送多个HTTP请求)</p><p><strong>HTTP1.0</strong>:  增加了很多命令,增加了status code(描述服务端请求后的状态) 和 header…</p><p><strong>HTTP1.1</strong>: 持久连接,增加了pipeline(同一TCP可以发送多个请求),增加了host和其他一些命令</p><p>问题 :  带宽利⽤率不理想</p><p>原因: </p><ol><li><p>TCP的慢启动</p></li><li><p>带宽竞争: 多条TCP连接 </p></li><li><p>HTTP/1.1队头阻塞的问题</p><p>一个管道一个时间只能处理一个请求,在当前请求处理完成前,其他请求只能处于阻塞状态</p></li></ol><p><strong>HTTP2</strong>: 数据以二进制传输,同一个连接里面发送多个请求不再需要按照顺序来,头信息压缩以及推送等提高效率的功能</p><p><strong>HTTP/2的多路复用</strong></p><p>​    ⼀个域名只使⽤⼀个TCP⻓连接，慢启动只需要启动一次，也避免了多个TCP连接竞争带宽所带来的问题。</p><p>​    资源的并⾏请求，任何时候都可以向服务器发送请求，服务器可以随时响应</p><p><strong>多路复⽤机制</strong>: 每个请求对应一个id,请求分成帧传输  <em>(可以设置请求的优先级,服务器收到特定的id的时候,暂停一些请求优先处理关键的请求)</em></p><p>HTTP/2依然是基于TCP协议</p><p><strong>HTTP/2其他特性</strong></p><ol><li>服务器推送 </li><li>头部压缩 </li></ol><h4 id="浏览器发起HTTP请求的过程"><a href="#浏览器发起HTTP请求的过程" class="headerlink" title="浏览器发起HTTP请求的过程"></a>浏览器发起HTTP请求的过程</h4><ol><li><p>构建请求行信息</p><p>请求行包括请求方法,URL以及HTTP版本协议</p></li><li><p>查找缓存: 发起网络请求前先查询缓存有木有,有就使用缓存,没有再请求</p><p>判断是否有: 同一文件同一路径</p><p>缓存包括DNS缓存和页面的资源缓存</p><p>(DNS缓存: 把域名到IP的映射缓存起来)</p><p>请求资源的时候是否缓存:  根据响应头中的CatcheControl</p><p><em>(关于浏览器的缓存还有挺多知识的,包括过期等等,这里只作简单的阐述)</em></p></li><li><p>请求DNS服务器返回域名映射的IP地址和端口 ( 如果是HTTPS协议,还要建立TLS连接)</p></li><li><p>等待TCP队列(一个域名最多建立6个TCP)并建立TCP</p></li><li><p>发送HTTP</p></li></ol>]]></content>
     
     <summary type="html">
     
